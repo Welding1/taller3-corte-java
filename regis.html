@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro</title>
+</head>
+<body>
+    <h1>Registro</h1>
+    <form id="myForm">
+        <img src="C:\Users\USUARIO\OneDrive\OIP.jpeg">
+        <div>
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username" required>
+        </div>
+        <div>
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required>
+        </div>
+        <div>
+            <label for="confirm_password">Confirm Password:</label>
+            <input type="password" id="confirm_password" name="confirm_password" required>
+            <span id="password_error" style="color: red;"></span>
+        </div>
+        <div>
+            <label for="gender">Gender:</label>
+            <input type="radio" id="male" name="gender" value="male"> Male
+            <input type="radio" id="female" name="gender" value="female"> Female
+            <input type="radio" id="other" name="gender" value="other"> Other
+            <span id="gender_error" style="color: red;"></span>
+        </div>
+        <div>
+            <label for="terms">I accept the Terms and Conditions:</label>
+            <input type="checkbox" id="terms" name="terms" required>
+            <span id="terms_error" style="color: red;"></span>
+        </div>
+        <button type="agregar">agregar</button>
+        <form action="pagina2.html";></form>
+    </form>
+
+    <script src="script.js"></script>
+</body>
+</html>
